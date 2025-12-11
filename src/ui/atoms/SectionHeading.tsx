@@ -1,4 +1,4 @@
-import { ReactNode } from "@tanstack/react-router";
+import { ReactNode } from "react";
 
 export default function SectionHeading({
   children,
