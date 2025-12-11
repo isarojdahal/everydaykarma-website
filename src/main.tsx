@@ -9,7 +9,10 @@ import { HelmetProvider } from "react-helmet-async";
 import Preloader from "./ui/organisms/Preloader";
 
 // Create a new router instance
-const router = createRouter({ routeTree });
+const router = createRouter({
+  routeTree,
+  basepath: "/everydaykarma",
+});
 
 // Register the router instance for type safety
 declare module "@tanstack/react-router" {
